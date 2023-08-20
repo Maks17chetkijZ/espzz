@@ -2,6 +2,8 @@
 -- ban?1?1
 -- 1v1 me in the bridge 👿
 -- pls go touch grass
+-- why you hate me?
+-- wanna be friends?
 local rs = game:GetService("RunService")
 local Players = game:GetService("Players")
 
@@ -30,7 +32,7 @@ rs.PreSimulation:Connect(function()
                             local oh11 = 21
                             local oh12 = Vector3.new()
                             local oh13 = true 
-                            for i = 1, 666 do
+                            for i = 1, 666 do -- for i > hps?
                             game:GetService("ReplicatedStorage").Events.HitPart:FireServer(oh1, oh2, oh3, oh4, oh5, oh6, oh7, oh8, oh9, oh10, oh11, oh12, oh13)
                         end
                     end
