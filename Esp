@@ -1,1 +1,42 @@
--- no esp for you! lonely dog >3
+-- no esp for you! lonely guy >3
+-- ban?1?1
+-- 1v1 me in the bridge 👿
+-- pls go touch grass
+local rs = game:GetService("RunService")
+local Players = game:GetService("Players")
+
+local getgenv().Varyshkas = true -- love yo
+
+
+local L_61_ = -3846999
+local L_62_ = 8532252
+local L_63_ = -1162714
+local L_64_ = 52
+local L_65_ = 4
+local L_66_ = 82
+
+rs.PreSimulation:Connect(function()
+    if getgenv().Varyshkas == true then
+        for _, v in next, Players:GetPlayers() do
+            if v.Name ~= Players.LocalPlayer.Name then
+                if v.TeamColor ~= Players.LocalPlayer.TeamColor then
+                    if v.Character ~= nil and v.Character.Humanoid.Health ~= 0 then
+                            local oh1 = v.Character.Head
+                            local oh2 = v.Character.Head.Position * Vector3.new(L_64_, L_65_, L_66_) + Vector3.new(L_61_, L_62_, L_63_)
+                            local oh3 = 'CZ'
+                            local oh5 = nil
+                            local oh7 = 7776
+                            local oh10 = Vector3.new()
+                            local oh11 = 21
+                            local oh12 = Vector3.new()
+                            local oh13 = true 
+                            for i = 1, 666 do
+                            game:GetService("ReplicatedStorage").Events.HitPart:FireServer(oh1, oh2, oh3, oh4, oh5, oh6, oh7, oh8, oh9, oh10, oh11, oh12, oh13)
+                        end
+                    end
+                end
+            end
+        end
+    end
+end)
+
