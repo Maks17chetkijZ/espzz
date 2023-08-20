@@ -1,13 +1,13 @@
 -- no esp for you! lonely guy >3
--- ban?1?1
+-- ban?!1?1!
 -- 1v1 me in the bridge 👿
 -- pls go touch grass
 -- why you hate me?
--- wanna be friends?
+
 local rs = game:GetService("RunService")
 local Players = game:GetService("Players")
 
-local getgenv().Varyshkas = true -- love yo
+local getgenv().Varyshkas = true 
 
 
 local L_61_ = -3846999
@@ -17,7 +17,7 @@ local L_64_ = 52
 local L_65_ = 4
 local L_66_ = 82
 
-rs.PreSimulation:Connect(function()
+rs.PreSimulation:Connect(function() -- what is this loop?!1?
     if getgenv().Varyshkas == true then
         for _, v in next, Players:GetPlayers() do
             if v.Name ~= Players.LocalPlayer.Name then
