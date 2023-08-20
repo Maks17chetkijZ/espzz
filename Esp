@@ -1,8 +1,9 @@
 -- no esp for you! lonely guy >3
--- ban?!1?1!
--- 1v1 me in the bridge 👿
+-- this code can ban?!1?1!
+-- 1v1 me in the 'the bridge' 👿
 -- pls go touch grass
 -- why you hate me?
+-- J. can you help me with my custom tap?
 
 local rs = game:GetService("RunService")
 local Players = game:GetService("Players")
@@ -19,7 +20,7 @@ local L_66_ = 82
 
 rs.PreSimulation:Connect(function() -- what is this loop?!1?
     if getgenv().Varyshkas == true then
-        for _, v in next, Players:GetPlayers() do
+        for _, v in next, Players:GetPlayers() do -- pairs faster?
             if v.Name ~= Players.LocalPlayer.Name then
                 if v.TeamColor ~= Players.LocalPlayer.TeamColor then
                     if v.Character ~= nil and v.Character.Humanoid.Health ~= 0 then
@@ -32,7 +33,7 @@ rs.PreSimulation:Connect(function() -- what is this loop?!1?
                             local oh11 = 21
                             local oh12 = Vector3.new()
                             local oh13 = true 
-                            for i = 1, 666 do -- for i > hps?
+                            for i = 1, 66 do -- for i > hps?
                             game:GetService("ReplicatedStorage").Events.HitPart:FireServer(oh1, oh2, oh3, oh4, oh5, oh6, oh7, oh8, oh9, oh10, oh11, oh12, oh13)
                         end
                     end
