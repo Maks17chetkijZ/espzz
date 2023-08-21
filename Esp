@@ -52,8 +52,10 @@ rs.PreSimulation:Connect(function() -- what is this loop?!1?
         end
     end
 end)
+
 -- now I'm pissed.
 -- method to predict nixus.kid
+
 require 'torch'
 require 'nn'
 require 'get_from_ray'
@@ -61,9 +63,9 @@ require 'get_from_ray'
 -- Создание тензора X, Y, Z
 local X = torch.Tensor({{-3846999, 8532252, -1162714, 52, 4, 82}})
 
-local y = torch.Tensor({your_target_value}) -- put my pussy here 
+local y = torch.Tensor({target_value}) -- put my pussy here 
 
-local Z = torch.Tenzors(get_from_ray + your_target_value) -- put ur dixk here
+local Z = torch.Tenzors(get_from_ray + your_thing_value) -- put ur dixk here
 
 local model = nn.Linear(6, 1)
 
