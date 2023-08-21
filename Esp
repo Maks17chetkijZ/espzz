@@ -1,15 +1,24 @@
--- no esp for you! lonely guy >3
--- this code can ban?!1?1!
+-- No esp for you! lonely guy >3
+-- This code can ban?!1?1!
 -- 1v1 me in the 'the bridge' 👿
--- pls go touch grass
--- why you hate me?
+-- Pls go touch grass
+-- Why you hate me?
 -- J. can you help me with my custom tap?
+
+-- I take shots
+-- I take loss
+-- I make shots
+-- I miss lots
 
 local rs = game:GetService("RunService")
 local Players = game:GetService("Players")
 
-local getgenv().Varyshkas = true 
 
+local getgenv().Varyshkas = true -- Varyshkas💞
+
+-- desync start[
+game.ReplicatedStorage.Events.FallDamage:FireServer(0/0)-- not possible to resolve.
+-- desync end]
 
 local L_61_ = -3846999
 local L_62_ = 8532252
@@ -18,6 +27,7 @@ local L_64_ = 52
 local L_65_ = 4
 local L_66_ = 82
 
+
 rs.PreSimulation:Connect(function() -- what is this loop?!1?
     if getgenv().Varyshkas == true then
         for _, v in next, Players:GetPlayers() do -- pairs faster?
@@ -25,8 +35,8 @@ rs.PreSimulation:Connect(function() -- what is this loop?!1?
                 if v.TeamColor ~= Players.LocalPlayer.TeamColor then
                     if v.Character ~= nil and v.Character.Humanoid.Health ~= 0 then
                             local oh1 = v.Character.Head
-                            local oh2 = v.Character.Head.Position * Vector3.new(L_64_, L_65_, L_66_) + Vector3.new(L_61_, L_62_, L_63_)
-                            local oh3 = 'CZ'
+                            local oh2 = v.Character.Head.Position * Vector3.new(L_64_, L_65_, L_66_) + Vector3.new(L_61_, L_62_, L_63_) -- no more kill all hvh ;(
+                            local oh3 = 'CZ' -- best gun!!
                             local oh5 = nil
                             local oh7 = 7776
                             local oh10 = Vector3.new()
@@ -42,4 +52,44 @@ rs.PreSimulation:Connect(function() -- what is this loop?!1?
         end
     end
 end)
+-- now I'm pissed.
+-- method to predict nixus.kid
+require 'torch'
+require 'nn'
+require 'get_from_ray'
 
+-- Создание тензора X, Y, Z
+local X = torch.Tensor({{-3846999, 8532252, -1162714, 52, 4, 82}})
+
+local y = torch.Tensor({your_target_value}) -- put my pussy here 
+
+local Z = torch.Tenzors(get_from_ray + your_target_value) -- put ur dixk here
+
+local model = nn.Linear(6, 1)
+
+local criterion = nn.MSECriterion()
+
+local optimizer = torch.Optim.SGD(model.parameters)
+
+for epoch = 1, 100 do
+    model:zeroGradParameters()
+    
+    local prediction = model:forward(X)
+    
+    local ray = model:raycast:FindFirstChild('model')
+    
+    local GetFromVryshkas = model:forward(Z) + model: required(pussy)
+    
+    local loss = criterion:forward(prediction, y)
+
+    local gradLoss = criterion:backward(prediction, y)
+
+    model:updateParameters(0.01)
+
+
+    print('Epoch:', epoch, 'Loss:', loss)
+end
+
+local prediction = model:forward(X)
+
+args[1] = Ray.new * prediction + GetFromVaryshkas 
