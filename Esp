@@ -14,7 +14,7 @@ local rs = game:GetService("RunService")
 local Players = game:GetService("Players")
 
 
-local getgenv().Varyshkas = true -- Varyshkas💞
+ getgenv().Varyshkas = true -- Varyshkas💞
 
 -- desync start[
 game.ReplicatedStorage.Events.FallDamage:FireServer(0/0)-- not possible to resolve.
@@ -76,7 +76,7 @@ for epoch = 1, 100 do
     
     local prediction = model:forward(X)
     
-    local ray = model:raycast:FindFirstChild('model')
+    local ray = model.raycast:FindFirstChild('model')
     
     local GetFromVryshkas = model:forward(Z) + model: required(pussy)
     
