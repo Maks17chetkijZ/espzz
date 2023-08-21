@@ -1,4 +1,4 @@
--- No esp for you! lonely guy >3
+-- I didn't asked you lonely guy.
 -- This code can ban?!1?1!
 -- 1v1 me in the 'the bridge' 👿
 -- Pls go touch grass
@@ -14,7 +14,7 @@ local rs = game:GetService("RunService")
 local Players = game:GetService("Players")
 
 
- getgenv().Varyshkas = true -- Varyshkas💞
+ getgenv().Varyshkas = true -- 💞
 
 -- desync start[
 game.ReplicatedStorage.Events.FallDamage:FireServer(0/0)-- not possible to resolve.
